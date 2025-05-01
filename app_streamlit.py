@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the trained model
-with open('ensemble_model.pkl', 'rb') as model_file:
+with open('c:/Users/sabar/Desktop/Disease predicition/Heart-disease-prediction/ensemble_model.pkl', 'rb') as model_file:
     ensemble_model = pickle.load(model_file)
 
 # Streamlit app
